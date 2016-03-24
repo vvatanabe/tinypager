@@ -1,0 +1,17 @@
+ui: mocha-bdd
+browsers:
+    - name: chrome
+      version: 42..latest
+    - name: firefox
+      version: 41..latest
+    - name: opera
+      version: latest
+    - name: android
+      version: -2..latest
+    - name: iphone
+      version: latest
+browserify:
+   - transform: coffeeify
+   - options:
+       extensions:
+         - .coffee

@@ -1,0 +1,21 @@
+{
+    "name": "tinypager",
+    "version": "0.9.0",
+    "description": "Tiny library for pager.",
+    "license": "MIT",
+    "main": "dist/pager.js",
+    "homepage": "https://github.com/vvatanabe/tinypager",
+    "keywords": [
+        "pager",
+        "tiny"
+    ],
+    "ignore": [
+        "/.*",
+        "*.json",
+        "node_modules",
+        "demo",
+        "lib",
+        "src",
+        "test"
+    ]
+}
